@@ -12,3 +12,23 @@
     justify-content: center;
     width: 100%;
 }
+
+.todoform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+gap: 20px;
+height: 450px;
+}
+.todoform input,select, button{
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border-radius: 8px;
+}
+.img img{
+    width: 150px;
+    height: 100px;
+}
+
